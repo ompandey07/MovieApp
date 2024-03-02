@@ -13,7 +13,13 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <Link to={"/"} className="navbar-brand text-white">
-            <h4>React Movie App</h4>
+            <h4>
+              <i class="ri-movie-2-line" style={{ fontSize: "2rem" }}></i>{" "}
+              Nepali<i class="ri-arrow-down-wide-fill"></i>Cinema
+              <span style={{ fontSize: "12px", marginLeft: "300px" }}>
+                Developed By : Om Pandey
+              </span>
+            </h4>
           </Link>
           <div className="d-flex text-white align-items-center">
             {currentUser ? (
